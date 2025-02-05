@@ -27,3 +27,28 @@ FLUSH PRIVILEGES;
 Step 10:
 
 exit
+
+Step 11:
+
+INSTALLED_APPS = [
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
+    'myapp',
+]
+
+Step 12:
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'reservations',
+        'HOST' : '127.0.0.1',
+        'PORT' : '3306',
+        'USER' : 'admindjango',
+        'PASSWORD' : 'employee@123!',
+    }
+}
