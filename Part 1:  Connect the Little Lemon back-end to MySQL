@@ -1,0 +1,29 @@
+Step 1:
+
+mysql -u root -p  OR
+
+sudo mysql -u root -p 
+
+Step 2:
+
+CREATE DATABASE reservations;
+
+Step 3:
+
+SHOW DATABASES;
+
+Step 7:
+
+CREATE USER 'admindjango'@'localhost' IDENTIFIED BY 'employee@123!' ;
+
+Step 8:
+
+GRANT ALL ON *.* TO 'admindjango'@'localhost';
+
+Step 9:
+
+FLUSH PRIVILEGES;
+
+Step 10:
+
+exit
