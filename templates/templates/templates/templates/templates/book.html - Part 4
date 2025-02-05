@@ -1,0 +1,10 @@
+slot_options = '<option value="0" disabled>Select time</option>'
+        for (i = 10; i <= 20; i++) {
+          const label = formatTime(i)
+          if (reserved_slots.includes(i)) {
+            slot_options += `<option value=${i} disabled>${label}</option>`
+          } else {
+            slot_options += `<option value=${i}>${label}</option>`
+          }
+
+        }
