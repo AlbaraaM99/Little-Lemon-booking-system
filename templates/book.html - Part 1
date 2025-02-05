@@ -1,0 +1,2 @@
+<label for="reservation_date">Reservation date:</label>
+              <input type="date" id="reservation_date">
